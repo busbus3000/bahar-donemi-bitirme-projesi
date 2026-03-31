@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f5;
+}
+
+/* container */
+.container {
+    width: 800px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #f7f7f7;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header i {
+    font-size: 28px;
+    color: #2aa198;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+/* çizgi */
+hr {
+    margin: 15px 0 25px;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* row */
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* form */
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* inputlar */
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #fff;
+}
+
+textarea {
+    height: 90px;
+    resize: none;
+}
+
+.full {
+    width: 100%;
+}
+
+/* date icon */
+.date-box {
+    position: relative;
+}
+
+.date-box input {
+    width: 100%;
+}
+
+.date-box i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+/* button */
+.btn {
+    display: block;
+    margin: 25px auto 0;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    background: #2aa198;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #238b83;
+}
